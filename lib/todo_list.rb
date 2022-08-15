@@ -1,5 +1,6 @@
 class TodoList
     def initialize
+        @list = []
     end
   
     def add(todo) # todo is an instance of Todo
